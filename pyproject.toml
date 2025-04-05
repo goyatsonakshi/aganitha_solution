@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aganitha_sonakshi"
+version = "0.1.0"
+description = "A module to fetch and parse research papers from PubMed."
+authors = [
+    { name = "Sonakshi", email = "sonakshi@python.com" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "requests",
+    "pandas"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/shorya2201/pubmed_paper_fetcher"
+"Documentation" = "https://github.com/shorya2201/pubmed_paper_fetcher#readme"
+"Source" = "https://github.com/shorya2201/pubmed_paper_fetcher"
+"Tracker" = "https://github.com/shorya2201/pubmed_paper_fetcher/issues"
